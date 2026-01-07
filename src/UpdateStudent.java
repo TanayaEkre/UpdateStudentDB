@@ -25,7 +25,7 @@ public class UpdateStudent {
             Connection con = DriverManager.getConnection(
                     "jdbc:oracle:thin:@localhost:1521:XE",
                     "system",
-                    "@T1u6e04"
+                    "@pass"
             );
 
             PreparedStatement stmt =
